@@ -1110,6 +1110,11 @@
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="Mvc\Controllers\UtilityNavController.cs" />
+    <Compile Include="Mvc\Models\UtilityNav\LinkTarget.cs" />
+    <Compile Include="Mvc\Models\UtilityNav\NavItemType.cs" />
+    <Compile Include="Mvc\Models\UtilityNav\UtilityNavItemModel.cs" />
+    <Compile Include="Mvc\Models\UtilityNav\UtilityNavViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1131,6 +1136,7 @@
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
+    <Content Include="Mvc\Views\UtilityNav\Default.cshtml" />
     <None Include="packages.config" />
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>
